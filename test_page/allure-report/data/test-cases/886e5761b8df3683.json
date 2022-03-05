@@ -1,0 +1,173 @@
+{
+  "uid" : "886e5761b8df3683",
+  "name" : "test_increateBasket",
+  "fullName" : "test_main#test_increateBasket",
+  "historyId" : "da62837c41be041f2103d40e7d58ce83",
+  "time" : {
+    "start" : 1645766892854,
+    "stop" : 1645766893346,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645766885437,
+      "stop" : 1645766888288,
+      "duration" : 2851
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645766893554,
+      "stop" : 1645766895841,
+      "duration" : 2287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "增加商品数量"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "19036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56f0f67ab9078b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645756379747,
+        "stop" : 1645756380084,
+        "duration" : 337
+      }
+    }, {
+      "uid" : "86429459b892e59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712387732,
+        "stop" : 1645712387978,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "6fc486b9b6295255",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1645712368257,
+        "stop" : 1645712375024,
+        "duration" : 6767
+      }
+    }, {
+      "uid" : "195554d7568f6f8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711645508,
+        "stop" : 1645711645786,
+        "duration" : 278
+      }
+    }, {
+      "uid" : "a95cb37eab2b7567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711506823,
+        "stop" : 1645711507079,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "970009d26c36b16d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711329414,
+        "stop" : 1645711329711,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "5831206a8182cc23",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1645711263757,
+        "stop" : 1645711270844,
+        "duration" : 7087
+      }
+    }, {
+      "uid" : "2d00b31b135367ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645710466890,
+        "stop" : 1645710467444,
+        "duration" : 554
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6102681ff4fd33df",
+        "reportUrl" : "http://localhost:9090/job/testdemo/15/allure/#testresult/6102681ff4fd33df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756379747,
+          "stop" : 1645756380084,
+          "duration" : 337
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "886e5761b8df3683.json",
+  "parameterValues" : [ ]
+}

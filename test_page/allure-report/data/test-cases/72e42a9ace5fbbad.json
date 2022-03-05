@@ -1,0 +1,88 @@
+{
+  "uid" : "72e42a9ace5fbbad",
+  "name" : "test_searchproduct[test_data10]",
+  "fullName" : "test_main#test_searchproduct",
+  "historyId" : "37ad18159b70d11e23ebf1c0e13cb246",
+  "time" : {
+    "start" : 1645712367386,
+    "stop" : 1645712367942,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645712361565,
+      "stop" : 1645712363676,
+      "duration" : 2111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645712375586,
+      "stop" : 1645712377686,
+      "duration" : 2100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "1468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72e42a9ace5fbbad.json",
+  "parameterValues" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+}

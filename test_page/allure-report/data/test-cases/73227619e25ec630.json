@@ -1,0 +1,85 @@
+{
+  "uid" : "73227619e25ec630",
+  "name" : "test_delete_product",
+  "fullName" : "test_main#test_delete_product",
+  "historyId" : "cb8b2a8098944755cdb7ed8fca56069a",
+  "time" : {
+    "start" : 1645711329807,
+    "stop" : 1645711329906,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645711276535,
+      "stop" : 1645711278653,
+      "duration" : 2118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645711329906,
+      "stop" : 1645711332169,
+      "duration" : 2263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "删除商品"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "16876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73227619e25ec630.json",
+  "parameterValues" : [ ]
+}

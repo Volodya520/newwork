@@ -1,0 +1,188 @@
+{
+  "uid" : "72ca8cb3486f9b90",
+  "name" : "test_Shoppingbasket",
+  "fullName" : "test_main#test_Shoppingbasket",
+  "historyId" : "16e000975a33b704735b130fa6b90a21",
+  "time" : {
+    "start" : 1645766892672,
+    "stop" : 1645766892848,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645766885437,
+      "stop" : 1645766888288,
+      "duration" : 2851
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645766893554,
+      "stop" : 1645766895841,
+      "duration" : 2287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "点击购物车"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "19036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d14461123c5ceec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645756379571,
+        "stop" : 1645756379742,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "e870626153ebcf1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712387485,
+        "stop" : 1645712387729,
+        "duration" : 244
+      }
+    }, {
+      "uid" : "9d0812f848415f2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712368052,
+        "stop" : 1645712368254,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "aed5793c6d6d216a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711645379,
+        "stop" : 1645711645503,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "ea70a38a097b1abf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button _ngcontent-nsp-c259=\"\" mat-button=\"\" routerlink=\"/basket\" aria-label=\"Show the shopping cart\" class=\"mat-focus-indicator buttons mat-button mat-button-base ng-star-inserted\" style=\"height: 48px;\" tabindex=\"0\">...</button> is not clickable at point (895, 32). Other element would receive the click: <div class=\"cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing\"></div>\n  (Session info: chrome=98.0.4758.102)",
+      "time" : {
+        "start" : 1645711626851,
+        "stop" : 1645711627973,
+        "duration" : 1122
+      }
+    }, {
+      "uid" : "f60473687394789d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711607853,
+        "stop" : 1645711607974,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "af9208797a65babe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711506695,
+        "stop" : 1645711506819,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "52577f2249c9e031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711329291,
+        "stop" : 1645711329410,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "652346c61d8ddb33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711263643,
+        "stop" : 1645711263754,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "87d8c879b686acf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645710466688,
+        "stop" : 1645710466884,
+        "duration" : 196
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8a8c63446b837451",
+        "reportUrl" : "http://localhost:9090/job/testdemo/15/allure/#testresult/8a8c63446b837451",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756379571,
+          "stop" : 1645756379742,
+          "duration" : 171
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72ca8cb3486f9b90.json",
+  "parameterValues" : [ ]
+}

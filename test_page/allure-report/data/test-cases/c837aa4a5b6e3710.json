@@ -1,0 +1,105 @@
+{
+  "uid" : "c837aa4a5b6e3710",
+  "name" : "test_searchproduct[test_data10]",
+  "fullName" : "test_main#test_searchproduct",
+  "historyId" : "37ad18159b70d11e23ebf1c0e13cb246",
+  "time" : {
+    "start" : 1645711505955,
+    "stop" : 1645711506254,
+    "duration" : 299
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '1.png'",
+  "statusTrace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"531b810ac86c6a5c51d73b4f026e4b3e\")>\ntest_data1 = {'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}\n\n    @allure.epic(\"搜索\")\n    \n    # 搜索产品\n    # @pytest.mark.parametrize(\"test_data1\",yaml.safe_load(open(get_par_path()+\"\\\\test_page\\\\test_main.yml\")))\n    @pytest.mark.parametrize(\"test_data1\",yaml.safe_load(open(\"test_main.yml\")))\n    def test_searchproduct(driver, test_data1):\n        searchproduct = Searchproduct(driver)\n        searchproduct.searchproduct1(test_data1[\"search_items\"])\n>       allure.attach.file(\"1.png\",attachment_type=allure.attachment_type.PNG)\n\ntest_main.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\_allure.py:182: in file\n    plugin_manager.hook.attach_file(source=source, name=name, attachment_type=attachment_type, extension=extension)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nc:\\users\\administrator\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\allure_pytest\\listener.py:226: in attach_file\n    self.allure_logger.attach_file(uuid4(), source, name=name, attachment_type=attachment_type, extension=extension)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\reporter.py:114: in attach_file\n    plugin_manager.hook.report_attached_file(source=source, file_name=file_name)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\logger.py:53: in report_attached_file\n    shutil.copy2(source, destination)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shutil.py:432: in copy2\n    copyfile(src, dst, follow_symlinks=follow_symlinks)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsrc = '1.png'\ndst = 'E:\\\\python2104\\\\自动化代码\\\\newwork\\\\test_page\\\\allure-results\\\\e635fa73-fded-4843-8e1e-17cbfceee522-attachment.png'\n\n    def copyfile(src, dst, *, follow_symlinks=True):\n        \"\"\"Copy data from src to dst in the most efficient way possible.\n    \n        If follow_symlinks is not set and src is a symbolic link, a new\n        symlink will be created instead of copying the file it points to.\n    \n        \"\"\"\n        sys.audit(\"shutil.copyfile\", src, dst)\n    \n        if _samefile(src, dst):\n            raise SameFileError(\"{!r} and {!r} are the same file\".format(src, dst))\n    \n        file_size = 0\n        for i, fn in enumerate([src, dst]):\n            try:\n                st = _stat(fn)\n            except OSError:\n                # File most likely does not exist\n                pass\n            else:\n                # XXX What about other special files? (sockets, devices...)\n                if stat.S_ISFIFO(st.st_mode):\n                    fn = fn.path if isinstance(fn, os.DirEntry) else fn\n                    raise SpecialFileError(\"`%s` is a named pipe\" % fn)\n                if _WINDOWS and i == 0:\n                    file_size = st.st_size\n    \n        if not follow_symlinks and _islink(src):\n            os.symlink(os.readlink(src), dst)\n        else:\n>           with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nE           FileNotFoundError: [Errno 2] No such file or directory: '1.png'\n\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shutil.py:261: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645711500986,
+      "stop" : 1645711502767,
+      "duration" : 1781
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: '1.png'",
+    "statusTrace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"531b810ac86c6a5c51d73b4f026e4b3e\")>\ntest_data1 = {'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}\n\n    @allure.epic(\"搜索\")\n    \n    # 搜索产品\n    # @pytest.mark.parametrize(\"test_data1\",yaml.safe_load(open(get_par_path()+\"\\\\test_page\\\\test_main.yml\")))\n    @pytest.mark.parametrize(\"test_data1\",yaml.safe_load(open(\"test_main.yml\")))\n    def test_searchproduct(driver, test_data1):\n        searchproduct = Searchproduct(driver)\n        searchproduct.searchproduct1(test_data1[\"search_items\"])\n>       allure.attach.file(\"1.png\",attachment_type=allure.attachment_type.PNG)\n\ntest_main.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\_allure.py:182: in file\n    plugin_manager.hook.attach_file(source=source, name=name, attachment_type=attachment_type, extension=extension)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nc:\\users\\administrator\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\allure_pytest\\listener.py:226: in attach_file\n    self.allure_logger.attach_file(uuid4(), source, name=name, attachment_type=attachment_type, extension=extension)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\reporter.py:114: in attach_file\n    plugin_manager.hook.report_attached_file(source=source, file_name=file_name)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\site-packages\\allure_commons\\logger.py:53: in report_attached_file\n    shutil.copy2(source, destination)\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shutil.py:432: in copy2\n    copyfile(src, dst, follow_symlinks=follow_symlinks)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nsrc = '1.png'\ndst = 'E:\\\\python2104\\\\自动化代码\\\\newwork\\\\test_page\\\\allure-results\\\\e635fa73-fded-4843-8e1e-17cbfceee522-attachment.png'\n\n    def copyfile(src, dst, *, follow_symlinks=True):\n        \"\"\"Copy data from src to dst in the most efficient way possible.\n    \n        If follow_symlinks is not set and src is a symbolic link, a new\n        symlink will be created instead of copying the file it points to.\n    \n        \"\"\"\n        sys.audit(\"shutil.copyfile\", src, dst)\n    \n        if _samefile(src, dst):\n            raise SameFileError(\"{!r} and {!r} are the same file\".format(src, dst))\n    \n        file_size = 0\n        for i, fn in enumerate([src, dst]):\n            try:\n                st = _stat(fn)\n            except OSError:\n                # File most likely does not exist\n                pass\n            else:\n                # XXX What about other special files? (sockets, devices...)\n                if stat.S_ISFIFO(st.st_mode):\n                    fn = fn.path if isinstance(fn, os.DirEntry) else fn\n                    raise SpecialFileError(\"`%s` is a named pipe\" % fn)\n                if _WINDOWS and i == 0:\n                    file_size = st.st_size\n    \n        if not follow_symlinks and _islink(src):\n            os.symlink(os.readlink(src), dst)\n        else:\n>           with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:\nE           FileNotFoundError: [Errno 2] No such file or directory: '1.png'\n\nC:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shutil.py:261: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645711507223,
+      "stop" : 1645711509484,
+      "duration" : 2261
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "9864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c837aa4a5b6e3710.json",
+  "parameterValues" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+}

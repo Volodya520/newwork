@@ -1,0 +1,268 @@
+{
+  "uid" : "ac3d82d3ee00273e",
+  "name" : "test_login[test_data10]",
+  "fullName" : "test_main#test_login",
+  "historyId" : "d54f08573f3f5ace4c7970477180b9ce",
+  "time" : {
+    "start" : 1645766888292,
+    "stop" : 1645766891955,
+    "duration" : 3663
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1645766885437,
+      "stop" : 1645766888288,
+      "duration" : 2851
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "去掉弹窗",
+      "time" : {
+        "start" : 1645766891102,
+        "stop" : 1645766891221,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1645766891221,
+        "stop" : 1645766891628,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1645766891628,
+        "stop" : 1645766891845,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击按钮",
+      "time" : {
+        "start" : 1645766891845,
+        "stop" : 1645766891955,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1645766893554,
+      "stop" : 1645766895841,
+      "duration" : 2287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "登陆"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-205DCP6"
+  }, {
+    "name" : "thread",
+    "value" : "19036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data1",
+    "value" : "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3112e9551821619c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645756371684,
+        "stop" : 1645756378799,
+        "duration" : 7115
+      }
+    }, {
+      "uid" : "e1d4420aa2c4876d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712383015,
+        "stop" : 1645712386629,
+        "duration" : 3614
+      }
+    }, {
+      "uid" : "f240a29c26f68249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712363678,
+        "stop" : 1645712367379,
+        "duration" : 3701
+      }
+    }, {
+      "uid" : "6e84eb759950d134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645712328802,
+        "stop" : 1645712332563,
+        "duration" : 3761
+      }
+    }, {
+      "uid" : "80c935a3b74c56f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711641521,
+        "stop" : 1645711644580,
+        "duration" : 3059
+      }
+    }, {
+      "uid" : "dc5050a7ebd4c650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711622797,
+        "stop" : 1645711625934,
+        "duration" : 3137
+      }
+    }, {
+      "uid" : "5614bd4536d3ddcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711603804,
+        "stop" : 1645711607049,
+        "duration" : 3245
+      }
+    }, {
+      "uid" : "22d07cd07f9f187e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711502770,
+        "stop" : 1645711505926,
+        "duration" : 3156
+      }
+    }, {
+      "uid" : "90a075b0d29e4881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711278655,
+        "stop" : 1645711328531,
+        "duration" : 49876
+      }
+    }, {
+      "uid" : "3f2e4606b4fb25b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645711229988,
+        "stop" : 1645711262677,
+        "duration" : 32689
+      }
+    }, {
+      "uid" : "18741392801b4e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645710433150,
+        "stop" : 1645710466096,
+        "duration" : 32946
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bbe0b25e1f62c26c",
+        "reportUrl" : "http://localhost:9090/job/testdemo/15/allure/#testresult/bbe0b25e1f62c26c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756371684,
+          "stop" : 1645756378799,
+          "duration" : 7115
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac3d82d3ee00273e.json",
+  "parameterValues" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+}

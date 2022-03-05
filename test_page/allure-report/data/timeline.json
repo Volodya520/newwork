@@ -1,0 +1,1298 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-205DCP6",
+    "children" : [ {
+      "name" : "9864-MainThread",
+      "children" : [ {
+        "name" : "test_delete_product",
+        "uid" : "11479196805d6b69",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711507145,
+          "stop" : 1645711507223,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "953be53a3c9b9e6e",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711506579,
+          "stop" : 1645711506691,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "22d07cd07f9f187e",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711502770,
+          "stop" : 1645711505926,
+          "duration" : 3156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "af9208797a65babe",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711506695,
+          "stop" : 1645711506819,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "a7b029d0e2f79f9b",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711507083,
+          "stop" : 1645711507143,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "a95cb37eab2b7567",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711506823,
+          "stop" : 1645711507079,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "c837aa4a5b6e3710",
+        "parentUid" : "40d2b375c52469dc8f4bd3076e1c0284",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711505955,
+          "stop" : 1645711506254,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      } ],
+      "uid" : "40d2b375c52469dc8f4bd3076e1c0284"
+    }, {
+      "name" : "11784-MainThread",
+      "children" : [ {
+        "name" : "test_Shoppingbasket",
+        "uid" : "4d14461123c5ceec",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756379571,
+          "stop" : 1645756379742,
+          "duration" : 171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "3112e9551821619c",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756371684,
+          "stop" : 1645756378799,
+          "duration" : 7115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "56f0f67ab9078b8e",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756379747,
+          "stop" : 1645756380084,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "e6bbaac150900891",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756378804,
+          "stop" : 1645756379156,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "18c3ef6883d270dc",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756379192,
+          "stop" : 1645756379567,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "474d82eb2be3ff9d",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756380086,
+          "stop" : 1645756380169,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "8b679af8576261e5",
+        "parentUid" : "ee2d55ad92145521524b1ed5e9511868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645756380172,
+          "stop" : 1645756380259,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee2d55ad92145521524b1ed5e9511868"
+    }, {
+      "name" : "17448-MainThread",
+      "children" : [ {
+        "name" : "test_login[test_data10]",
+        "uid" : "18741392801b4e52",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710433150,
+          "stop" : 1645710466096,
+          "duration" : 32946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "87d8c879b686acf3",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710466688,
+          "stop" : 1645710466884,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "99ef1bd275645e51",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710466102,
+          "stop" : 1645710466685,
+          "duration" : 583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "2d00b31b135367ef",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710466890,
+          "stop" : 1645710467444,
+          "duration" : 554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "25ed9dd347767c55",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710467526,
+          "stop" : 1645710467611,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "82c69c117598b4d4",
+        "parentUid" : "2213255367f4c0e85ebea526998a96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645710467447,
+          "stop" : 1645710467523,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2213255367f4c0e85ebea526998a96a3"
+    }, {
+      "name" : "1468-MainThread",
+      "children" : [ {
+        "name" : "test_increateBasket",
+        "uid" : "6fc486b9b6295255",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645712368257,
+          "stop" : 1645712375024,
+          "duration" : 6767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "ed9d71be8d7a1b56",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712367946,
+          "stop" : 1645712368048,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "9d0812f848415f2d",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712368052,
+          "stop" : 1645712368254,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "f240a29c26f68249",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712363678,
+          "stop" : 1645712367379,
+          "duration" : 3701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "6aa4939987b3b9bd",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645712375542,
+          "stop" : 1645712375543,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "1df2d0f0828ab0c",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645712375476,
+          "stop" : 1645712375479,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "72e42a9ace5fbbad",
+        "parentUid" : "abb95c4a9dbe6b962a96477ca82eb026",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712367386,
+          "stop" : 1645712367942,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      } ],
+      "uid" : "abb95c4a9dbe6b962a96477ca82eb026"
+    }, {
+      "name" : "18676-MainThread",
+      "children" : [ {
+        "name" : "test_Shoppingbasket",
+        "uid" : "f60473687394789d",
+        "parentUid" : "56717bf1469145077a8c47a17983211c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711607853,
+          "stop" : 1645711607974,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "9a688cc1454f4a45",
+        "parentUid" : "56717bf1469145077a8c47a17983211c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711607054,
+          "stop" : 1645711607348,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "5614bd4536d3ddcc",
+        "parentUid" : "56717bf1469145077a8c47a17983211c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711603804,
+          "stop" : 1645711607049,
+          "duration" : 3245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "e03486fc44f4cb03",
+        "parentUid" : "56717bf1469145077a8c47a17983211c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711607756,
+          "stop" : 1645711607850,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56717bf1469145077a8c47a17983211c"
+    }, {
+      "name" : "11724-MainThread",
+      "children" : [ {
+        "name" : "test_Shoppingbasket",
+        "uid" : "aed5793c6d6d216a",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711645379,
+          "stop" : 1645711645503,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "4baa1229e4fc16",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711644585,
+          "stop" : 1645711644886,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "195554d7568f6f8c",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711645508,
+          "stop" : 1645711645786,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "21e730ba24f4eb51",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711645856,
+          "stop" : 1645711645936,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "80c935a3b74c56f2",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711641521,
+          "stop" : 1645711644580,
+          "duration" : 3059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "801b3afeb6273b27",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711645792,
+          "stop" : 1645711645852,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "92edf719b2451555",
+        "parentUid" : "b8c3445ef663a760049fe315c18bdc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711645261,
+          "stop" : 1645711645375,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8c3445ef663a760049fe315c18bdc52"
+    }, {
+      "name" : "17736-MainThread",
+      "children" : [ {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "55d31d4efd5f9dd5",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712386634,
+          "stop" : 1645712387034,
+          "duration" : 400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "e870626153ebcf1c",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712387485,
+          "stop" : 1645712387729,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "86429459b892e59c",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712387732,
+          "stop" : 1645712387978,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "3ae11f5353d2b0c",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712387041,
+          "stop" : 1645712387481,
+          "duration" : 440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "2120890b34e2aa52",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712388084,
+          "stop" : 1645712388180,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "e1d4420aa2c4876d",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712383015,
+          "stop" : 1645712386629,
+          "duration" : 3614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "165781bd6b50bc10",
+        "parentUid" : "ebf4712941e8e1a6c6ca59c9f803881c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712387982,
+          "stop" : 1645712388080,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebf4712941e8e1a6c6ca59c9f803881c"
+    }, {
+      "name" : "11200-MainThread",
+      "children" : [ {
+        "name" : "test_login[test_data10]",
+        "uid" : "3f2e4606b4fb25b0",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711229988,
+          "stop" : 1645711262677,
+          "duration" : 32689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "652346c61d8ddb33",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711263643,
+          "stop" : 1645711263754,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "9ed1239eeba3ed9b",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711263571,
+          "stop" : 1645711263639,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "9734f86b9b57ce05",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711270990,
+          "stop" : 1645711270992,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "7a4a771097e7ef07",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711270940,
+          "stop" : 1645711270941,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "be198cebbcc6d11a",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711262681,
+          "stop" : 1645711263177,
+          "duration" : 496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "5831206a8182cc23",
+        "parentUid" : "d5e8b937a3d049a1185173d0eeac6e06",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711263757,
+          "stop" : 1645711270844,
+          "duration" : 7087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5e8b937a3d049a1185173d0eeac6e06"
+    }, {
+      "name" : "11620-MainThread",
+      "children" : [ {
+        "name" : "test_login[test_data10]",
+        "uid" : "6e84eb759950d134",
+        "parentUid" : "74b8694d743a947f0b2a8d90a9a7e8dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645712328802,
+          "stop" : 1645712332563,
+          "duration" : 3761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "9915e7c56c0a04d8",
+        "parentUid" : "74b8694d743a947f0b2a8d90a9a7e8dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645712332571,
+          "stop" : 1645712339673,
+          "duration" : 7102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "9ed4232ca2fb5cdc",
+        "parentUid" : "74b8694d743a947f0b2a8d90a9a7e8dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645712340392,
+          "stop" : 1645712352484,
+          "duration" : 12092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74b8694d743a947f0b2a8d90a9a7e8dd"
+    }, {
+      "name" : "15636-MainThread",
+      "children" : [ {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "2602c8ea51d48bda",
+        "parentUid" : "0f1932fcf030c326ceaea36e39622b5a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711625941,
+          "stop" : 1645711626255,
+          "duration" : 314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "dc5050a7ebd4c650",
+        "parentUid" : "0f1932fcf030c326ceaea36e39622b5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711622797,
+          "stop" : 1645711625934,
+          "duration" : 3137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "ea70a38a097b1abf",
+        "parentUid" : "0f1932fcf030c326ceaea36e39622b5a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711626851,
+          "stop" : 1645711627973,
+          "duration" : 1122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "23ead0161beaeb2c",
+        "parentUid" : "0f1932fcf030c326ceaea36e39622b5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711626567,
+          "stop" : 1645711626846,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f1932fcf030c326ceaea36e39622b5a"
+    }, {
+      "name" : "16876-MainThread",
+      "children" : [ {
+        "name" : "test_login[test_data10]",
+        "uid" : "90a075b0d29e4881",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711278655,
+          "stop" : 1645711328531,
+          "duration" : 49876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "873dd54747724f72",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645711328536,
+          "stop" : 1645711328827,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "ad731f4512372de9",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711329187,
+          "stop" : 1645711329289,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "970009d26c36b16d",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711329414,
+          "stop" : 1645711329711,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_product",
+        "uid" : "73227619e25ec630",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711329807,
+          "stop" : 1645711329906,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "670046f0d887e254",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711329715,
+          "stop" : 1645711329801,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "52577f2249c9e031",
+        "parentUid" : "4b32ef5028792649c37b1d9c46114533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645711329291,
+          "stop" : 1645711329410,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b32ef5028792649c37b1d9c46114533"
+    }, {
+      "name" : "19036-MainThread",
+      "children" : [ {
+        "name" : "test_delete_product",
+        "uid" : "7a74d06615be10b4",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766893471,
+          "stop" : 1645766893554,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addproduct",
+        "uid" : "cc32018eb6140e34",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766892523,
+          "stop" : 1645766892667,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchproduct[test_data10]",
+        "uid" : "ba589a653488c424",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766891995,
+          "stop" : 1645766892517,
+          "duration" : 522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_login[test_data10]",
+        "uid" : "ac3d82d3ee00273e",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766888292,
+          "stop" : 1645766891955,
+          "duration" : 3663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': '777@qq.com', 'password': 123456, 'search_items': 'apple'}" ]
+      }, {
+        "name" : "test_Shoppingbasket",
+        "uid" : "72ca8cb3486f9b90",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766892672,
+          "stop" : 1645766892848,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_reduceBasket",
+        "uid" : "2072fc48d073bbaf",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766893349,
+          "stop" : 1645766893468,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_increateBasket",
+        "uid" : "886e5761b8df3683",
+        "parentUid" : "68491d1a195753d24a0a4e39b63ff0b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645766892854,
+          "stop" : 1645766893346,
+          "duration" : 492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68491d1a195753d24a0a4e39b63ff0b9"
+    } ],
+    "uid" : "ae454f95f2fa686e2afbc213ca8d422c"
+  } ]
+}

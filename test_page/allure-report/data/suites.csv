@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 25 13:28:13 CST 2022","Fri Feb 25 13:28:13 CST 2022","83","","test_main","","","","test_delete_product",""
+"passed","Fri Feb 25 13:28:12 CST 2022","Fri Feb 25 13:28:12 CST 2022","144","","test_main","","","","test_addproduct",""
+"passed","Fri Feb 25 13:28:11 CST 2022","Fri Feb 25 13:28:12 CST 2022","522","","test_main","","","","test_searchproduct[test_data10]",""
+"passed","Fri Feb 25 13:28:08 CST 2022","Fri Feb 25 13:28:11 CST 2022","3663","","test_main","","","","test_login[test_data10]",""
+"passed","Fri Feb 25 13:28:12 CST 2022","Fri Feb 25 13:28:13 CST 2022","492","","test_main","","","","test_increateBasket",""
+"passed","Fri Feb 25 13:28:13 CST 2022","Fri Feb 25 13:28:13 CST 2022","119","","test_main","","","","test_reduceBasket",""
+"passed","Fri Feb 25 13:28:12 CST 2022","Fri Feb 25 13:28:12 CST 2022","176","","test_main","","","","test_Shoppingbasket",""
